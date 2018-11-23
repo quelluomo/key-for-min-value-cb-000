@@ -3,8 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.each do |key, value|
-    value.map > nil
+    value.find key[value] < key[value]
       return key
-  lower = name_hash.find {|key, value| key[value] < key[:value] }  
   end
 end
